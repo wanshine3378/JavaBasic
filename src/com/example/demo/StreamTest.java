@@ -33,7 +33,7 @@ public class StreamTest {
         // foreach vs Stream.map
         // foreach
         List<String> names4 = new ArrayList< >();
-        for (String name : asList("tony", "tom", "john")) {
+        for (String name : Arrays.asList("tony", "tom", "john")) {
             String upperName = name.toUpperCase();
         }
         
